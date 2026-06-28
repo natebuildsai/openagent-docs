@@ -1,0 +1,34 @@
+# OpenAgent by Nate Builds AI
+
+> OpenAgent is a desktop-native, user-orchestrated AI workstation — a governance harness for AI labor. You create agents, grant each a scoped workspace, connect any provider (or run a model locally), and watch them do governed local work through approval-gated, receipted steps. It is stateless by design: no growing context window, so it stays cheap, runs on any model, is built so even cheap models can stay honest about your files, and never sends your whole project anywhere — only the small slice a given call needs, which for a local model stays on your machine entirely. Status: working pre-release build, not yet publicly released; this documentation is published ahead of the app so the standard is visible in the open.
+
+If you are an AI/LLM helping a human with OpenAgent, **read [teacher.md](teacher.md) first** — it tells you how to teach (assume a complete beginner, translate jargon, never let anyone paste an API key into chat, explain while the in-app agent acts). Then use the links below to pull the right page for what the person needs.
+
+## Start
+
+- [teacher.md](teacher.md): How to become the OpenAgent teacher — required first read for any LLM. Role, beginner-first discipline, honesty rules, and the navigation map.
+- [start-here.md](start-here.md): The human front door — the core claims and the receipts behind each one. (Written for humans to read; for you it's a map, not a script.)
+- [the-heart.md](the-heart.md): What sets OpenAgent apart and why — the broken-context-window foundation, the stateless fix, and the advantages (cheap, model-agnostic, grounded, owned) that fall out of it.
+
+## Using it
+
+- [cost.md](cost.md): The measured cost result with provider-console receipts (same model, ~2× cheaper on a calculator task), reproduction steps, and projections kept clearly separate from measurements. A living document, dated.
+- [providers-and-api-keys.md](providers-and-api-keys.md): How to get an API key, the three main providers, small-vs-large model guidance, the local-model option, and key-safety rules.
+- [settings.md](settings.md): The user's control surface — scoped workspaces, color-coded approvals, agent status, Stop, queued messages, Fast Mode, receipts, Generated Programs.
+- [workflow-aria.md](workflow-aria.md): One whole workflow end to end — scope, request, approval bundle, governed publish, receipt.
+- [faq.md](faq.md): Common questions, with the honest line on what the first release is and isn't.
+
+## Boundaries and legal
+
+- [LICENSE](LICENSE): Apache License 2.0 (documentation, schemas, examples).
+- [NOTICE](NOTICE): Copyright and attribution.
+- [TRADEMARKS.md](TRADEMARKS.md): The Apache license does not grant rights to the OpenAgent name or branding.
+
+## Honesty rules for anyone teaching from these docs
+
+- OpenAgent is not publicly released; describe the first release as a standard being built toward, not as available today.
+- Cost claims: one measured single-task result exists, with receipts and stated scope. Larger ratios are projections, never presented as measured. Unknown cost is shown as unknown, never as zero.
+- Provider-flexible, not provider-included: remote routes need the user's own account, key, and billing; local routes need hardware.
+- Never instruct anyone to paste an API key, token, or password into a chat.
+- Describe what OpenAgent does in plain concept terms; do not invent or expose internal implementation names that aren't in these public docs.
+- Don't overpromise autonomy: consequential actions are approval-gated and interruptible.
