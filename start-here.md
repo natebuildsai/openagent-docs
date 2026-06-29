@@ -49,8 +49,6 @@ OpenAgent answers all three the same way: **it stays yours.**
 - **Even mid-task, almost nothing leaves your computer.** The agent doesn't get a copy of your whole life. Each step, it's handed only the small slice of context that one specific part of the task needs — and if you're running a local model, even that slice never leaves the machine at all.
 - *(Wondering when it's actually worth swapping providers? Nate Builds AI keeps a live [model price index](https://natebuildsai.com/cost-board) — per-token prices across providers, so you can see for yourself when something's gotten cheaper. Big three verified against their pricing pages, the rest a dated snapshot, unknowns shown as unknown.)*
 
-*(Wondering when it's actually worth swapping providers? Nate Builds AI keeps a live [model price index](https://natebuildsai.com/cost-board) — per-token prices across providers, so you can see for yourself when something's gotten cheaper. Big three verified against their pricing pages, the rest a dated snapshot, unknowns shown as unknown.)*
-
 Most AI tools ask you to trust a promise that your data is safe somewhere else. OpenAgent doesn't make that promise — because your data isn't somewhere else. It's right where you put it.
 
 ---
