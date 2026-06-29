@@ -49,19 +49,6 @@ Provider prices and model names move constantly — which is why every price on 
 
 The big three (Anthropic, OpenAI, Google) are verified against their own pricing pages; the rest are a dated snapshot, and anything without a reliable rate is shown as **unknown — never as $0.** Use it to compare before you pick a provider, or to spot when a model you already use has gotten cheaper somewhere else.
 
-Note what it is and isn't: it's an index of what the *models* cost. That's separate from what *OpenAgent* costs to run a task — which is measured, with receipts, in [`cost.md`](cost.md). Different question, different page.
-
----
-
-## Comparing prices: the live model index
-
-Provider prices and model names move constantly — which is why every price on this page is a snapshot you should verify before relying on it. To make that easier, Nate Builds AI keeps a **live model price index**: what each model costs per token, across providers, in one place.
-
-- **Human view:** [natebuildsai.com/cost-board](https://natebuildsai.com/cost-board)
-- **Machine view (JSON):** [natebuildsai.com/api/cost-board.json](https://natebuildsai.com/api/cost-board.json)
-
-The big three (Anthropic, OpenAI, Google) are verified against their own pricing pages; the rest are a dated snapshot, and anything without a reliable rate is shown as **unknown — never as $0.** Use it to compare before you pick a provider, or to spot when a model you already use has gotten cheaper somewhere else.
-
 It's an index of what the *models* cost — separate from what *OpenAgent* costs to run a task, which is measured with receipts in [`cost.md`](cost.md). Different question, different page.
 
 ---
