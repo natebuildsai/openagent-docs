@@ -132,7 +132,7 @@ No. The goal is governed capability under your control, not silent autonomy. Con
 
 ## What's the website status?
 
-Under construction — currently hosting devlog updates toward the first release at [natebuildsai.com](https://natebuildsai.com). Accounts, plugin upload, signing, update downloads, and pricing endpoints are first-release direction, not yet fully available.
+Live and growing — [natebuildsai.com](https://natebuildsai.com) hosts devlog updates toward the first release and the **live model price index** (`/cost-board`). Accounts, plugin upload, signing, and update downloads are first-release direction, not yet fully available.
 
 ## What are external AI chats good for, then?
 
