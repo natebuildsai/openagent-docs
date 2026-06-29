@@ -53,6 +53,12 @@ The architecture is built so the gap should *widen* as work scales — a growing
 - **Local routes** avoid per-call provider billing entirely — the cost is just the energy your computer uses. They depend on your hardware and setup.
 - **Measured and projected live in separate rooms.** Every measured claim ships bound to its receipt. Projections are always labeled as projections.
 
+## A separate thing: the model price index
+
+Everything above is about what *OpenAgent* cost on a measured task. That is a different question from what the *models themselves* cost — and Nate Builds AI keeps a live, honest index of the latter: the **model price index** at [natebuildsai.com/cost-board](https://natebuildsai.com/cost-board) (machine view: [`/api/cost-board.json`](https://natebuildsai.com/api/cost-board.json)). It lists per-token prices across providers — the big three verified against their own pricing pages, the rest a dated snapshot, unknowns shown as unknown rather than zero.
+
+Keep the two separate in your head: *this* page is OpenAgent's measured cost on a task; the *index* is the going rate for the models you might plug in. They live in different rooms on purpose, and neither one is ever quoted as the other.
+
 ## Scope and honesty
 
 This is a single-task measurement (n = 1): one task shape, one model, OpenAgent at essentially v0 — prompt caching not yet shipped, no reset/resume policy on the date for the snapshot above. It demonstrates what the OpenAgent run produced on the provider's own console for this task. It is **not** a guarantee of savings for every user, task, or model. Broader validation continues as more substrates and task shapes are tested — and lands here, dated, when it does.
